@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 17vh;
+  background-color: rgb(90, 62, 194);
+  display: flex;
+  /* border-radius: 15px; */
+}
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+img{
+  border-radius: 50%;
+}
+.headNote{
+  margin-left: 50px;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.main_note{
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+  /* border: 2px solid red; */
+
+}
+form{
+  min-height: 50px;
+  color: whitesmoke;
+  padding: 15px 10px 5px 10px ;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: relative;
+}
+input{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  /* font-size: 1rem; */
+  margin: 10px 0;
+  font-weight: bold;
+  /* border: 2px solid red; */
+}
+textarea{
+  width:100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary{
+ 
+  color: #f4b400;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+  background-color: rgb(231, 231, 228);
+    border-radius: 50%;
+    width: 40px;
+    height: 27px;
+    float: right;
+    position: absolute;
+    bottom: -15px;
+    right: 15px;
+}
+.MuiButton-root {
+  min-width: 30px; 
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary:hover{
+  background-color: red;
+}
+
+/* .note{
+  width: 300px;
+  line-height: 30px;
+  background: white;
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.2);
+ 
+} */
+.note h1{
+  font-size: 1.1rem;
+  /* margin-bottom: 6px; */
+}
+.note p{
+  font-size: 1.1rem;
+  /* margin-bottom: 10px; */
+  white-space: pre-wrap;
+}
+
+  .note{
+  position: relative;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 150px;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px  rgba(0, 0, 0, 0.5);
+  border-radius:15px;
+  margin: 15px;
+  padding: 5px;
+  float: left;
+  
+
+}
+.btn1{
+  background: transparent;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  /* background-color: rgb(15, 199, 206); */
+  border-radius: 50%;
+  color: red;
+  float: right;
+  margin-right: 10px;
+}
+.btn1:hover{
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+/* mediaquerry */
+
+/* @media only  */
